@@ -1,0 +1,19 @@
+<!-- Auto layout, variables, and unit scale are not yet supported -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/signup_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+            <TextView
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="@style/signup"
+                android:text="@string/signup"
+                android:gravity="center_horizontal|top"
+                />
+
+</LinearLayout>
